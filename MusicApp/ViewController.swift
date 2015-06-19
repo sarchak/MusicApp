@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    let musicManager = MusicManager()
+    let session = NSURLSession.sharedSession()
+    var musicTracks: [MusicTrack]!
+    @IBOutlet weak var slider: UISlider!
+    var player:AVPlayer?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        player = AVPlayer(URL: NSURL(string: "http://p.scdn.co/mp3-preview/dffd166162a33b2273fe6d781b31f49fbefd7460")!)
+        //player?.play()
+    
+        musicManager.getMusicTracks { (results) -> Void in
+            self.musicTracks = results
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
