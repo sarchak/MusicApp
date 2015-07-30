@@ -1,23 +1,32 @@
 PODS:
   - Alamofire (1.2.3)
   - LEColorPicker (1.0.3)
+  - Spring (1.0.3)
 
 DEPENDENCIES:
   - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift-2.0`)
   - LEColorPicker
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
 
 EXTERNAL SOURCES:
   Alamofire:
     :branch: swift-2.0
     :git: https://github.com/Alamofire/Alamofire.git
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
 
 CHECKOUT OPTIONS:
   Alamofire:
     :commit: fd71afb3a0af2042b9f05a6b9f29317ad4903703
     :git: https://github.com/Alamofire/Alamofire.git
+  Spring:
+    :commit: dea15459d3fdaf5f37ae8f57073e14050d73b772
+    :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
   LEColorPicker: 34509a9df7a128b1109a5dbe3f25921fc511c03d
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
 
 COCOAPODS: 0.37.2

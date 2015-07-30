@@ -15,13 +15,14 @@ class MusicManager {
     let session = NSURLSession.sharedSession()
     func getMusicTracks(onComplete : (results :[MusicTrack]) -> Void) {
         
-        Alamofire.request(.GET, URLString: "https://itunes.apple.com/search?term=one%20republic").responseJSON { (request, response, data , error) -> Void in
+        Alamofire.request(.GET, URLString: "https://itunes.apple.com/search?term=pop").responseJSON { (request, response, data , error) -> Void in
             print(error)
             if let tmpdata = data {
                 for entry in tmpdata.valueForKey("results") as! [NSDictionary] {
                     let musicTrack = MusicTrack(data: entry)
                     self.musicTracks.append(musicTrack)
                 }
+                print(self.musicTracks.count)
                 onComplete(results: self.musicTracks)
             }            
         }

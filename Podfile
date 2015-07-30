@@ -5,6 +5,7 @@ use_frameworks!
 target 'MusicApp' do
 pod 'LEColorPicker'
 pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'swift-2.0'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
 end
 
 target 'MusicAppTests' do

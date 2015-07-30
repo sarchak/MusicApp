@@ -7,325 +7,463 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0188EBB4F2BF696E13611C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489CFF7A648C7A91DB98A5F3 /* Foundation.framework */; };
-		0B9AED9FD207373DFA332289 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EE1053E53A287D991D93C /* ParameterEncoding.swift */; };
-		0FFD4453EB9373098918BF7C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3C1686B607C2D5DA25A33 /* Request.swift */; };
-		19605113351A7C3145FF3D1A /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA41E77DA2573B929596733 /* Upload.swift */; };
-		1C7ACD7B8AD217DF5EC3DB6D /* LEColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D49416FBCD50292E860CFDD /* LEColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26E09F08FD12F1ECB9DF5F6B /* Pods-MusicApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF582199109621C8D4BBA59 /* Pods-MusicApp-dummy.m */; };
-		356EFB597FB314D9859D8884 /* UIColor+YUVSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97248003420E9E1D71FDBC /* UIColor+YUVSpace.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		44A38BAF7F7DF404155F9997 /* LEColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BFC7E457403489BA83A8BD /* LEColorPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		45EDE7B71F8A037B0B28AADD /* Pods-MusicApp-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB4623884FCB35DA7534E5 /* Pods-MusicApp-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48C3922F22A0BF0888C9D86F /* Pods-MusicApp-LEColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD653F7DC31B89E1566E49E /* Pods-MusicApp-LEColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5653B677B811EF1AC6B6D91E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB54CEDA48DB99E0372C21 /* Alamofire.swift */; };
-		660E7BEDB00931F88D0F042E /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C04CABD47C85B6E07FB8D5 /* ResponseSerialization.swift */; };
-		72CED865EA17DDEFE665BBAC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB143044DBD3015B79AF05A /* Validation.swift */; };
-		9A581E3CE193E013C153C5AD /* Pods-MusicApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C02335F135890F0CF0CFD153 /* Pods-MusicApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B737EFE90CF0E1D6666C7C9 /* Pods-MusicApp-LEColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31827CB73958FFC48CDF2D /* Pods-MusicApp-LEColorPicker-dummy.m */; };
-		9F725D9E5F56A617C588469E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489CFF7A648C7A91DB98A5F3 /* Foundation.framework */; };
-		AD2A068EA32B233ACBB2EA4E /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AE9666306701AB154C851D /* Download.swift */; };
-		C26AF93C07685976BBE8CB5A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC95C2F7CFC010E7FFE820C /* Manager.swift */; };
-		E194CC6AEFA62EFF112EFD56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489CFF7A648C7A91DB98A5F3 /* Foundation.framework */; };
-		E57576E1FA73D124303AD65A /* Pods-MusicApp-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DBE2A2D48E1A98BD443C31 /* Pods-MusicApp-Alamofire-dummy.m */; };
-		F171CCB61A684C0C5E475EF9 /* UIColor+YUVSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A80BE97FC103DB45CE509416 /* UIColor+YUVSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F7D5B92CFECAB813D05793 /* Pods-MusicApp-Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2470DD54B400EA0C1B63B8 /* Pods-MusicApp-Spring-dummy.m */; };
+		0A464A390999B7B1A971E9C1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F97D8EACA283A579A5BD /* AsyncButton.swift */; };
+		0C343445B95FECAC009212B1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786847ACBEEE07720EA2988F /* ResponseSerialization.swift */; };
+		0E5B0F2622A0BC3AA6EB92BB /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0529DFAB62D16D2138BB511 /* DesignableImageView.swift */; };
+		0F228704D729901766DBE6B3 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68C1D7E2D6DDD7D6CBD03EF /* Manager.swift */; };
+		1051735E40A371B219C4C518 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C324568FD8BAE8E6AE62E9 /* SpringAnimation.swift */; };
+		10BF6E8AE1C1B3F45DFBE23C /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C050B7E96812F304B92CF3DA /* SpringView.swift */; };
+		233655655D8CE4B85ECB5727 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1572FD915055534DB877A4D4 /* LoadingView.xib */; };
+		27D93F0450FC8998EBAE36B8 /* Pods-MusicApp-LEColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF295013FED37956D6857B50 /* Pods-MusicApp-LEColorPicker-dummy.m */; };
+		29127BE2EACF84E00EA8D0C3 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BFFA3DF6574D9276E546E3 /* DesignableTextView.swift */; };
+		2D7CCC33C5DBF4F24D3DED1D /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A67A23E5EF97DED1A46ED6 /* Misc.swift */; };
+		30E94B273E348EE961CC0ABF /* LEColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC18C573F4B1631720DFD4E /* LEColorPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31E8D7E3061D1BCCE154D30A /* UIColor+YUVSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = C30F5DAB3EBEBC04D6401B5B /* UIColor+YUVSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3628B752896CB38A2EEE0CC2 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A910D21191180458A27E1 /* Upload.swift */; };
+		42F913E19577B9F533E063B1 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC27BF8D3D4990D9F6BF78 /* DesignableTextField.swift */; };
+		46F692DC2208250CD8879683 /* Pods-MusicApp-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61553DD0E9604FE4B73DD4 /* Pods-MusicApp-Alamofire-dummy.m */; };
+		5153E625319F5AA19DF59B3C /* Pods-MusicApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B907CFFDBF91C8DBD20CD4DB /* Pods-MusicApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51D10E6FD7494ACCD0F201EF /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1801B129942B7DEE98F3335 /* DesignableView.swift */; };
+		56AA3F6105BFDCED7937E3E0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D028172C27229F9D7FFFC02 /* BlurView.swift */; };
+		577EA8B5E9E3592C245A9AE8 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850EE0F405DF9E17963FDDAA /* DesignableTabBarController.swift */; };
+		5AF1536FC341F52057F58B40 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239008C264C5042BCE03A46B /* AutoTextView.swift */; };
+		5BE0D61ABD2698B205EC1FC8 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3404180EC41690B3FE0C2 /* SpringImageView.swift */; };
+		66D36CEC9B6591DD1DE88500 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1DA016AADC1DFF6C2E760 /* KeyboardLayoutConstraint.swift */; };
+		6BD52A684D4F11FB2DDAA1B1 /* LEColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D586F01D287F22D7F22E14 /* LEColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C95ECC854EA4421DB4D2615 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763847B16AB5D8D2C2E2E70 /* AsyncImageView.swift */; };
+		74A8FB4B0DED22AB4F801BAB /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861F509B8607C36EDA88DB6 /* Spring.swift */; };
+		9100513EA7DA190AF3DABDB6 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67ADFEC13E83C47E6742F39 /* SoundPlayer.swift */; };
+		9159FF776F30CB0BEC194E95 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B927059F36E5AB8491B2C /* Validation.swift */; };
+		93CC54DE4F400B46D300FEB0 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9B1A77E0B059AC462C2F /* UnwindSegue.swift */; };
+		975D86D129C4678ACC8986E0 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420B43C9853B1B35A9D4650 /* SpringTextView.swift */; };
+		9FC1BDB556F48F6FEA125425 /* Pods-MusicApp-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A891ECA6D4B374FA7856A25C /* Pods-MusicApp-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5561FF5FB2CF081A707D5D /* Pods-MusicApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8627875EC6A6EEB923DAE /* Pods-MusicApp-dummy.m */; };
+		AE9E69760C686BB1E4CD81F1 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E00ECCC5B79D7DD7FF995 /* Download.swift */; };
+		B5D601F9BFB48C00BAA54C29 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D0D37C21A23F6BBB25498 /* Alamofire.swift */; };
+		BADCE30CBD67F4277E739982 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F745B69E843C906CEFBA68 /* SpringButton.swift */; };
+		BCE4541F6B9673E56F5ACB5D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6207FCD83A6BCA0715400 /* ParameterEncoding.swift */; };
+		BF4454FD30E41F28B71B2BFD /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6CC003B5C9FA2224363B2 /* DesignableButton.swift */; };
+		C4E118974C46828C64FFEB37 /* Pods-MusicApp-Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533B54BD656EBCDFBC72FAC0 /* Pods-MusicApp-Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EEF16BC49AFB3CA8E5A0BB /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD3C265E0A2669AA282AFC9 /* ImageLoader.swift */; };
+		CD372AE36D65EADE75568477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EC6069370AE0347668E0BA /* Foundation.framework */; };
+		CE22D3859EB86E364E96F921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EC6069370AE0347668E0BA /* Foundation.framework */; };
+		D287F3D1CB5AD64F107DC7CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EC6069370AE0347668E0BA /* Foundation.framework */; };
+		D6C5E2E54FBE792E4A8F8E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EC6069370AE0347668E0BA /* Foundation.framework */; };
+		E44A1476EB45E2A0EF6433B2 /* UIColor+YUVSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A2EA767FA5DD4A2F87567 /* UIColor+YUVSpace.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4967F96EEA7FAC66CFF3C40 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823837A55EF2573E316555F2 /* LoadingView.swift */; };
+		E607F7191D3142ACADF9FECF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1BFF58F090F6ED6F34C91 /* Request.swift */; };
+		EC3C2549830AB82BE22BF83D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E10F6DA9383E741AC20B6A /* Images.xcassets */; };
+		F03C05EB0829D9530D4F5C69 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88222B45FBE143A04D05ECD /* TransitionZoom.swift */; };
+		F24F202E61C1D853A2579EEB /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1957197E804B18944E5B0EF3 /* TransitionManager.swift */; };
+		F5AC905817A321A63E15B27C /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC61BB6ECCA9242991DF13D /* SpringLabel.swift */; };
+		F5FE611449276B2291FF84E6 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B390955D4098DE2477E662 /* DesignableLabel.swift */; };
+		F8B59CEF6DEA922D1F9A4201 /* Pods-MusicApp-LEColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E79FA46834D02D29A8CEEA14 /* Pods-MusicApp-LEColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB77913496A8765D1FF8885D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986CEA353568EE7F0496AE8B /* SpringTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99BBBD61BF4FB8BCBD093291 /* PBXContainerItemProxy */ = {
+		06F9A40DAC0A870F7EECDE70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23B65B56A2C4BE1E2B406B4E /* Project object */;
+			containerPortal = 77E5F74719E3CCD93A9ED846 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C306D13184B309D0B244781E;
-			remoteInfo = "Pods-MusicApp-Alamofire";
-		};
-		D12DFAF27007CF0BA26E9D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23B65B56A2C4BE1E2B406B4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9396D83371901A603B6F4CD;
+			remoteGlobalIDString = D818F90A1C3D5C476BA7B694;
 			remoteInfo = "Pods-MusicApp-LEColorPicker";
+		};
+		D0553D95F8092CD88D05CBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E5F74719E3CCD93A9ED846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA245B27967C4510D9E8B48;
+			remoteInfo = "Pods-MusicApp-Spring";
+		};
+		E1AAAFDD9E2EE5E1EA44DB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E5F74719E3CCD93A9ED846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6506A10825E5C97A72FA971;
+			remoteInfo = "Pods-MusicApp-Alamofire";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11EB54CEDA48DB99E0372C21 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		16DBE2A2D48E1A98BD443C31 /* Pods-MusicApp-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		1DA41E77DA2573B929596733 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		28A3A9A48E9F5725F0534C2F /* Pods-MusicApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-resources.sh"; sourceTree = "<group>"; };
-		2A7907B91A23AADF242AEE22 /* Pods-MusicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.release.xcconfig"; sourceTree = "<group>"; };
-		2CB143044DBD3015B79AF05A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		2D49416FBCD50292E860CFDD /* LEColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEColorPicker.h; path = LEColorPicker/LEColorPicker.h; sourceTree = "<group>"; };
-		2E3FDED4B6A368A4A0FBDDFB /* Pods-MusicApp-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp-Alamofire.modulemap"; sourceTree = "<group>"; };
-		37BB4623884FCB35DA7534E5 /* Pods-MusicApp-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		44B309137F73C2F7C54B0930 /* Pods-MusicApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-frameworks.sh"; sourceTree = "<group>"; };
-		44FF4F087FD4FF341ED7E0F2 /* Pods-MusicApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4691E39B77B6A2E65B696AF9 /* Pods-MusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.debug.xcconfig"; sourceTree = "<group>"; };
-		46C04CABD47C85B6E07FB8D5 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		489CFF7A648C7A91DB98A5F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		54ABCD053D8E3D6CA8AA4CFC /* Pods-MusicApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		5850A96CE8CB71DC8A6F1070 /* Pods-MusicApp-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		59AE9666306701AB154C851D /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		5BC95C2F7CFC010E7FFE820C /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		5BF742D2C5EA5124BD9B1501 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-LEColorPicker-Private.xcconfig"; sourceTree = "<group>"; };
-		61BFC7E457403489BA83A8BD /* LEColorPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEColorPicker.m; path = LEColorPicker/LEColorPicker.m; sourceTree = "<group>"; };
-		629A6C1D4FA3F555F7E93981 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		660D0CD9C0B96BA873DED76F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E281C95F587657047ABAEA5 /* Pods-MusicApp-LEColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-LEColorPicker.xcconfig"; sourceTree = "<group>"; };
-		724BE471CD9FB905535F3C98 /* Pods-MusicApp-LEColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-LEColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		7CD653F7DC31B89E1566E49E /* Pods-MusicApp-LEColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-LEColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		82E71F9E046A68E93D9F5674 /* LEColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8929EDA29616B598E21F26DC /* Pods-MusicApp-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		97B3C1686B607C2D5DA25A33 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		A80BE97FC103DB45CE509416 /* UIColor+YUVSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YUVSpace.h"; path = "LEColorPicker/UIColor+YUVSpace.h"; sourceTree = "<group>"; };
-		AF119EE7F8015F5A01E58A36 /* Pods-MusicApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp.modulemap"; sourceTree = "<group>"; };
-		B44EE1053E53A287D991D93C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		BB97248003420E9E1D71FDBC /* UIColor+YUVSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YUVSpace.m"; path = "LEColorPicker/UIColor+YUVSpace.m"; sourceTree = "<group>"; };
-		C02335F135890F0CF0CFD153 /* Pods-MusicApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-umbrella.h"; sourceTree = "<group>"; };
-		CD31827CB73958FFC48CDF2D /* Pods-MusicApp-LEColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-LEColorPicker-dummy.m"; sourceTree = "<group>"; };
-		CE51861BEE00863643F3C722 /* Pods-MusicApp-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		D2A1F8630C9DAEC75FC41C07 /* Pods_MusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4FC1AD8E92477C2027BC108 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D62B3908FDBA6E939F490CB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9227BCC9DBC79765F8C5175 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5E7E4A18E5E0C43F5BB8A44 /* Pods-MusicApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-environment.h"; sourceTree = "<group>"; };
-		EAF582199109621C8D4BBA59 /* Pods-MusicApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-dummy.m"; sourceTree = "<group>"; };
-		F80E1B5CAA670B6EFDC1A0E8 /* Pods-MusicApp-LEColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp-LEColorPicker.modulemap"; sourceTree = "<group>"; };
+		06D48CEB2B1D8E92C0385F65 /* Pods-MusicApp-LEColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp-LEColorPicker.modulemap"; sourceTree = "<group>"; };
+		097B01C44ECC8AD3EB071200 /* Pods-MusicApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A2470DD54B400EA0C1B63B8 /* Pods-MusicApp-Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-Spring-dummy.m"; sourceTree = "<group>"; };
+		1572FD915055534DB877A4D4 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		1957197E804B18944E5B0EF3 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		1A93FC2B6F7BB6B564D4E705 /* Pods-MusicApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp.modulemap"; sourceTree = "<group>"; };
+		1ADC0F98B4A974F7D7A186CC /* LEColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE1DA016AADC1DFF6C2E760 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		1B9F9B1A77E0B059AC462C2F /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		238B7A2FE9DF9233C2CF0CD8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239008C264C5042BCE03A46B /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		2420B43C9853B1B35A9D4650 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		29E10F6DA9383E741AC20B6A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		32B1BFF58F090F6ED6F34C91 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		344B927059F36E5AB8491B2C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		49D5965262FDDB0E366BDBDE /* Pods-MusicApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-environment.h"; sourceTree = "<group>"; };
+		4BDF0E0156BDF9068D9524BA /* Pods_MusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F745B69E843C906CEFBA68 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		52D586F01D287F22D7F22E14 /* LEColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEColorPicker.h; path = LEColorPicker/LEColorPicker.h; sourceTree = "<group>"; };
+		52F2791330D14EAB1808B8D5 /* Pods-MusicApp-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		533B54BD656EBCDFBC72FAC0 /* Pods-MusicApp-Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Spring-umbrella.h"; sourceTree = "<group>"; };
+		554C443DDB7D780C18AD01E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EC6069370AE0347668E0BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59B390955D4098DE2477E662 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		5E89F97D8EACA283A579A5BD /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		69BFFA3DF6574D9276E546E3 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		6BCF2D436B07AF637CB5A506 /* Pods-MusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D028172C27229F9D7FFFC02 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		6DA9EC73727E5EBDDFB88D3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E61553DD0E9604FE4B73DD4 /* Pods-MusicApp-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		719F1B9E44A89A60B6273C1E /* Pods-MusicApp-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		7763847B16AB5D8D2C2E2E70 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		786847ACBEEE07720EA2988F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		7A7A2EA767FA5DD4A2F87567 /* UIColor+YUVSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YUVSpace.m"; path = "LEColorPicker/UIColor+YUVSpace.m"; sourceTree = "<group>"; };
+		7B88F2DE335170DFC25D8A2E /* Pods-MusicApp-LEColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-LEColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		7BF35F93E594E7D65878ECC5 /* Pods-MusicApp-Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Spring.xcconfig"; sourceTree = "<group>"; };
+		7DC9DA18F01FC1AB0D96EAA4 /* Pods-MusicApp-Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp-Spring.modulemap"; sourceTree = "<group>"; };
+		823837A55EF2573E316555F2 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		850EE0F405DF9E17963FDDAA /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		86B8627875EC6A6EEB923DAE /* Pods-MusicApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-dummy.m"; sourceTree = "<group>"; };
+		88A67A23E5EF97DED1A46ED6 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		8BC18C573F4B1631720DFD4E /* LEColorPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEColorPicker.m; path = LEColorPicker/LEColorPicker.m; sourceTree = "<group>"; };
+		8FA78FDC24EEB734D7CA81A4 /* Pods-MusicApp-Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Spring-prefix.pch"; sourceTree = "<group>"; };
+		8FD3C265E0A2669AA282AFC9 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		986CEA353568EE7F0496AE8B /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		98C324568FD8BAE8E6AE62E9 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		9ABE25CCAEFBBE39D05CAE16 /* Pods-MusicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.release.xcconfig"; sourceTree = "<group>"; };
+		A88222B45FBE143A04D05ECD /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		A891ECA6D4B374FA7856A25C /* Pods-MusicApp-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A98A910D21191180458A27E1 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		AF295013FED37956D6857B50 /* Pods-MusicApp-LEColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-LEColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B0811FDE58C746234F8EECDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EC27BF8D3D4990D9F6BF78 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		B907CFFDBF91C8DBD20CD4DB /* Pods-MusicApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-umbrella.h"; sourceTree = "<group>"; };
+		BCA6207FCD83A6BCA0715400 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C050B7E96812F304B92CF3DA /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		C13E9F5E7AE5DE6ECE717A08 /* Pods-MusicApp-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp-Alamofire.modulemap"; sourceTree = "<group>"; };
+		C30F5DAB3EBEBC04D6401B5B /* UIColor+YUVSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YUVSpace.h"; path = "LEColorPicker/UIColor+YUVSpace.h"; sourceTree = "<group>"; };
+		C54D0D37C21A23F6BBB25498 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C76A542C5AA29E1D1D27C774 /* Pods-MusicApp-Spring-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Spring-Private.xcconfig"; sourceTree = "<group>"; };
+		CBD27563B1AF78847009437E /* Pods-MusicApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-resources.sh"; sourceTree = "<group>"; };
+		D1661DD96DF44477BE89DEB2 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-LEColorPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		D67ADFEC13E83C47E6742F39 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		D861F509B8607C36EDA88DB6 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		D9C6CC003B5C9FA2224363B2 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		E0529DFAB62D16D2138BB511 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		E1801B129942B7DEE98F3335 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		E68C1D7E2D6DDD7D6CBD03EF /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		E79FA46834D02D29A8CEEA14 /* Pods-MusicApp-LEColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-LEColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		E8784203E7BE956E798A1DF7 /* Pods-MusicApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE3E00ECCC5B79D7DD7FF995 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		EEC61BB6ECCA9242991DF13D /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		F229BDB44E2A9262CE36ABEB /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CD5655F541750C273A317C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F646E8B6F0E2FFB84815BF59 /* Pods-MusicApp-LEColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-LEColorPicker.xcconfig"; sourceTree = "<group>"; };
+		F668F6D8383DF7D05F5493CB /* Pods-MusicApp-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		F8A1574807B6113461732445 /* Pods-MusicApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-frameworks.sh"; sourceTree = "<group>"; };
+		FBD3404180EC41690B3FE0C2 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		FCE1D3B51130B1E396A3D4FD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12A982AD1E268BBC0EDE131D /* Frameworks */ = {
+		0B8510F588FA816A69AC4B9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F725D9E5F56A617C588469E /* Foundation.framework in Frameworks */,
+				D6C5E2E54FBE792E4A8F8E0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F367BEE62E491B756FCAE8 /* Frameworks */ = {
+		231FD3EB7889531F3FA0C7AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E194CC6AEFA62EFF112EFD56 /* Foundation.framework in Frameworks */,
+				CD372AE36D65EADE75568477 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5426D7A1673004D0FFFED4A /* Frameworks */ = {
+		DA992659A683E63D14E60A4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0188EBB4F2BF696E13611C95 /* Foundation.framework in Frameworks */,
+				CE22D3859EB86E364E96F921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50C727D2AFBFDE050438DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287F3D1CB5AD64F107DC7CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C1314F352BAD3C907E11D75 /* Support Files */ = {
+		198FFCE09AF5B27D57CCD1B0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D62B3908FDBA6E939F490CB3 /* Info.plist */,
-				2E3FDED4B6A368A4A0FBDDFB /* Pods-MusicApp-Alamofire.modulemap */,
-				5850A96CE8CB71DC8A6F1070 /* Pods-MusicApp-Alamofire.xcconfig */,
-				CE51861BEE00863643F3C722 /* Pods-MusicApp-Alamofire-Private.xcconfig */,
-				16DBE2A2D48E1A98BD443C31 /* Pods-MusicApp-Alamofire-dummy.m */,
-				8929EDA29616B598E21F26DC /* Pods-MusicApp-Alamofire-prefix.pch */,
-				37BB4623884FCB35DA7534E5 /* Pods-MusicApp-Alamofire-umbrella.h */,
+				B0811FDE58C746234F8EECDE /* Info.plist */,
+				7DC9DA18F01FC1AB0D96EAA4 /* Pods-MusicApp-Spring.modulemap */,
+				7BF35F93E594E7D65878ECC5 /* Pods-MusicApp-Spring.xcconfig */,
+				C76A542C5AA29E1D1D27C774 /* Pods-MusicApp-Spring-Private.xcconfig */,
+				0A2470DD54B400EA0C1B63B8 /* Pods-MusicApp-Spring-dummy.m */,
+				8FA78FDC24EEB734D7CA81A4 /* Pods-MusicApp-Spring-prefix.pch */,
+				533B54BD656EBCDFBC72FAC0 /* Pods-MusicApp-Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MusicApp-Spring";
+			sourceTree = "<group>";
+		};
+		2B4D5ED97C2BAF757789FE1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C115EEA919A576037AB0F3A0 /* Pods-MusicApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3637FB113571BE6602AEDBAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				554C443DDB7D780C18AD01E4 /* Info.plist */,
+				C13E9F5E7AE5DE6ECE717A08 /* Pods-MusicApp-Alamofire.modulemap */,
+				52F2791330D14EAB1808B8D5 /* Pods-MusicApp-Alamofire.xcconfig */,
+				F668F6D8383DF7D05F5493CB /* Pods-MusicApp-Alamofire-Private.xcconfig */,
+				6E61553DD0E9604FE4B73DD4 /* Pods-MusicApp-Alamofire-dummy.m */,
+				719F1B9E44A89A60B6273C1E /* Pods-MusicApp-Alamofire-prefix.pch */,
+				A891ECA6D4B374FA7856A25C /* Pods-MusicApp-Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-MusicApp-Alamofire";
 			sourceTree = "<group>";
 		};
-		6674A04C2FB25D173A48A9EB /* Products */ = {
+		38F1162B32A66D725186900F /* LEColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				629A6C1D4FA3F555F7E93981 /* Alamofire.framework */,
-				82E71F9E046A68E93D9F5674 /* LEColorPicker.framework */,
-				D2A1F8630C9DAEC75FC41C07 /* Pods_MusicApp.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7759219885838EE44A0963B7 /* LEColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				2D49416FBCD50292E860CFDD /* LEColorPicker.h */,
-				61BFC7E457403489BA83A8BD /* LEColorPicker.m */,
-				A80BE97FC103DB45CE509416 /* UIColor+YUVSpace.h */,
-				BB97248003420E9E1D71FDBC /* UIColor+YUVSpace.m */,
-				C6DECCF7BEF71E48F0A935FA /* Support Files */,
+				52D586F01D287F22D7F22E14 /* LEColorPicker.h */,
+				8BC18C573F4B1631720DFD4E /* LEColorPicker.m */,
+				C30F5DAB3EBEBC04D6401B5B /* UIColor+YUVSpace.h */,
+				7A7A2EA767FA5DD4A2F87567 /* UIColor+YUVSpace.m */,
+				645123ED3F1C6BBF5B2CCFDF /* Support Files */,
 			);
 			path = LEColorPicker;
 			sourceTree = "<group>";
 		};
-		A8169857455B3A7C8BE31365 /* Pods-MusicApp */ = {
+		3CEE80365C66FC831183001F = {
 			isa = PBXGroup;
 			children = (
-				D9227BCC9DBC79765F8C5175 /* Info.plist */,
-				AF119EE7F8015F5A01E58A36 /* Pods-MusicApp.modulemap */,
-				44FF4F087FD4FF341ED7E0F2 /* Pods-MusicApp-acknowledgements.markdown */,
-				54ABCD053D8E3D6CA8AA4CFC /* Pods-MusicApp-acknowledgements.plist */,
-				EAF582199109621C8D4BBA59 /* Pods-MusicApp-dummy.m */,
-				E5E7E4A18E5E0C43F5BB8A44 /* Pods-MusicApp-environment.h */,
-				44B309137F73C2F7C54B0930 /* Pods-MusicApp-frameworks.sh */,
-				28A3A9A48E9F5725F0534C2F /* Pods-MusicApp-resources.sh */,
-				C02335F135890F0CF0CFD153 /* Pods-MusicApp-umbrella.h */,
-				4691E39B77B6A2E65B696AF9 /* Pods-MusicApp.debug.xcconfig */,
-				2A7907B91A23AADF242AEE22 /* Pods-MusicApp.release.xcconfig */,
+				FCE1D3B51130B1E396A3D4FD /* Podfile */,
+				482DCBD58DCAA412D70EC446 /* Frameworks */,
+				72567ABCD3350BA4D6CBF338 /* Pods */,
+				FA8BBA850416633A0F538E01 /* Products */,
+				2B4D5ED97C2BAF757789FE1B /* Targets Support Files */,
 			);
-			name = "Pods-MusicApp";
-			path = "Target Support Files/Pods-MusicApp";
 			sourceTree = "<group>";
 		};
-		C6DECCF7BEF71E48F0A935FA /* Support Files */ = {
+		482DCBD58DCAA412D70EC446 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				660D0CD9C0B96BA873DED76F /* Info.plist */,
-				F80E1B5CAA670B6EFDC1A0E8 /* Pods-MusicApp-LEColorPicker.modulemap */,
-				6E281C95F587657047ABAEA5 /* Pods-MusicApp-LEColorPicker.xcconfig */,
-				5BF742D2C5EA5124BD9B1501 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */,
-				CD31827CB73958FFC48CDF2D /* Pods-MusicApp-LEColorPicker-dummy.m */,
-				724BE471CD9FB905535F3C98 /* Pods-MusicApp-LEColorPicker-prefix.pch */,
-				7CD653F7DC31B89E1566E49E /* Pods-MusicApp-LEColorPicker-umbrella.h */,
+				E40FBADB45BC73994B508D75 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		645123ED3F1C6BBF5B2CCFDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD5655F541750C273A317C /* Info.plist */,
+				06D48CEB2B1D8E92C0385F65 /* Pods-MusicApp-LEColorPicker.modulemap */,
+				F646E8B6F0E2FFB84815BF59 /* Pods-MusicApp-LEColorPicker.xcconfig */,
+				D1661DD96DF44477BE89DEB2 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */,
+				AF295013FED37956D6857B50 /* Pods-MusicApp-LEColorPicker-dummy.m */,
+				7B88F2DE335170DFC25D8A2E /* Pods-MusicApp-LEColorPicker-prefix.pch */,
+				E79FA46834D02D29A8CEEA14 /* Pods-MusicApp-LEColorPicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-MusicApp-LEColorPicker";
 			sourceTree = "<group>";
 		};
-		D2A477784C6962D9F58F6772 = {
+		72567ABCD3350BA4D6CBF338 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D4FC1AD8E92477C2027BC108 /* Podfile */,
-				EED8E5D003EAE901D296CD7E /* Frameworks */,
-				FFDD664AE2BFC8728C91A71A /* Pods */,
-				6674A04C2FB25D173A48A9EB /* Products */,
-				F451E4FCBDEA3E99FA2184B7 /* Targets Support Files */,
+				DBCDBF84F44509D551AA3E8B /* Alamofire */,
+				38F1162B32A66D725186900F /* LEColorPicker */,
+				F6E9B73ABFCD4917D518AE79 /* Spring */,
 			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DF8771CFA72989352E415099 /* iOS */ = {
+		72CF42BD019AAC1769936CB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				489CFF7A648C7A91DB98A5F3 /* Foundation.framework */,
+				29E10F6DA9383E741AC20B6A /* Images.xcassets */,
+				1572FD915055534DB877A4D4 /* LoadingView.xib */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		EED8E5D003EAE901D296CD7E /* Frameworks */ = {
+		C115EEA919A576037AB0F3A0 /* Pods-MusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				DF8771CFA72989352E415099 /* iOS */,
+				6DA9EC73727E5EBDDFB88D3D /* Info.plist */,
+				1A93FC2B6F7BB6B564D4E705 /* Pods-MusicApp.modulemap */,
+				097B01C44ECC8AD3EB071200 /* Pods-MusicApp-acknowledgements.markdown */,
+				E8784203E7BE956E798A1DF7 /* Pods-MusicApp-acknowledgements.plist */,
+				86B8627875EC6A6EEB923DAE /* Pods-MusicApp-dummy.m */,
+				49D5965262FDDB0E366BDBDE /* Pods-MusicApp-environment.h */,
+				F8A1574807B6113461732445 /* Pods-MusicApp-frameworks.sh */,
+				CBD27563B1AF78847009437E /* Pods-MusicApp-resources.sh */,
+				B907CFFDBF91C8DBD20CD4DB /* Pods-MusicApp-umbrella.h */,
+				6BCF2D436B07AF637CB5A506 /* Pods-MusicApp.debug.xcconfig */,
+				9ABE25CCAEFBBE39D05CAE16 /* Pods-MusicApp.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-MusicApp";
+			path = "Target Support Files/Pods-MusicApp";
 			sourceTree = "<group>";
 		};
-		F451E4FCBDEA3E99FA2184B7 /* Targets Support Files */ = {
+		DBCDBF84F44509D551AA3E8B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				A8169857455B3A7C8BE31365 /* Pods-MusicApp */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F9F57C9C7939777397C13C68 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				11EB54CEDA48DB99E0372C21 /* Alamofire.swift */,
-				59AE9666306701AB154C851D /* Download.swift */,
-				5BC95C2F7CFC010E7FFE820C /* Manager.swift */,
-				B44EE1053E53A287D991D93C /* ParameterEncoding.swift */,
-				97B3C1686B607C2D5DA25A33 /* Request.swift */,
-				46C04CABD47C85B6E07FB8D5 /* ResponseSerialization.swift */,
-				1DA41E77DA2573B929596733 /* Upload.swift */,
-				2CB143044DBD3015B79AF05A /* Validation.swift */,
-				2C1314F352BAD3C907E11D75 /* Support Files */,
+				C54D0D37C21A23F6BBB25498 /* Alamofire.swift */,
+				EE3E00ECCC5B79D7DD7FF995 /* Download.swift */,
+				E68C1D7E2D6DDD7D6CBD03EF /* Manager.swift */,
+				BCA6207FCD83A6BCA0715400 /* ParameterEncoding.swift */,
+				32B1BFF58F090F6ED6F34C91 /* Request.swift */,
+				786847ACBEEE07720EA2988F /* ResponseSerialization.swift */,
+				A98A910D21191180458A27E1 /* Upload.swift */,
+				344B927059F36E5AB8491B2C /* Validation.swift */,
+				3637FB113571BE6602AEDBAA /* Support Files */,
 			);
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		FFDD664AE2BFC8728C91A71A /* Pods */ = {
+		E40FBADB45BC73994B508D75 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F9F57C9C7939777397C13C68 /* Alamofire */,
-				7759219885838EE44A0963B7 /* LEColorPicker */,
+				56EC6069370AE0347668E0BA /* Foundation.framework */,
 			);
-			name = Pods;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6E9B73ABFCD4917D518AE79 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				5E89F97D8EACA283A579A5BD /* AsyncButton.swift */,
+				7763847B16AB5D8D2C2E2E70 /* AsyncImageView.swift */,
+				239008C264C5042BCE03A46B /* AutoTextView.swift */,
+				6D028172C27229F9D7FFFC02 /* BlurView.swift */,
+				D9C6CC003B5C9FA2224363B2 /* DesignableButton.swift */,
+				E0529DFAB62D16D2138BB511 /* DesignableImageView.swift */,
+				59B390955D4098DE2477E662 /* DesignableLabel.swift */,
+				850EE0F405DF9E17963FDDAA /* DesignableTabBarController.swift */,
+				B8EC27BF8D3D4990D9F6BF78 /* DesignableTextField.swift */,
+				69BFFA3DF6574D9276E546E3 /* DesignableTextView.swift */,
+				E1801B129942B7DEE98F3335 /* DesignableView.swift */,
+				8FD3C265E0A2669AA282AFC9 /* ImageLoader.swift */,
+				1AE1DA016AADC1DFF6C2E760 /* KeyboardLayoutConstraint.swift */,
+				823837A55EF2573E316555F2 /* LoadingView.swift */,
+				88A67A23E5EF97DED1A46ED6 /* Misc.swift */,
+				D67ADFEC13E83C47E6742F39 /* SoundPlayer.swift */,
+				D861F509B8607C36EDA88DB6 /* Spring.swift */,
+				98C324568FD8BAE8E6AE62E9 /* SpringAnimation.swift */,
+				51F745B69E843C906CEFBA68 /* SpringButton.swift */,
+				FBD3404180EC41690B3FE0C2 /* SpringImageView.swift */,
+				EEC61BB6ECCA9242991DF13D /* SpringLabel.swift */,
+				986CEA353568EE7F0496AE8B /* SpringTextField.swift */,
+				2420B43C9853B1B35A9D4650 /* SpringTextView.swift */,
+				C050B7E96812F304B92CF3DA /* SpringView.swift */,
+				1957197E804B18944E5B0EF3 /* TransitionManager.swift */,
+				A88222B45FBE143A04D05ECD /* TransitionZoom.swift */,
+				1B9F9B1A77E0B059AC462C2F /* UnwindSegue.swift */,
+				72CF42BD019AAC1769936CB1 /* Resources */,
+				198FFCE09AF5B27D57CCD1B0 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		FA8BBA850416633A0F538E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238B7A2FE9DF9233C2CF0CD8 /* Alamofire.framework */,
+				1ADC0F98B4A974F7D7A186CC /* LEColorPicker.framework */,
+				4BDF0E0156BDF9068D9524BA /* Pods_MusicApp.framework */,
+				F229BDB44E2A9262CE36ABEB /* Spring.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BCAF06F40B4D74629161E48 /* Headers */ = {
+		443AF66417140CFB98645D11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C7ACD7B8AD217DF5EC3DB6D /* LEColorPicker.h in Headers */,
-				48C3922F22A0BF0888C9D86F /* Pods-MusicApp-LEColorPicker-umbrella.h in Headers */,
-				F171CCB61A684C0C5E475EF9 /* UIColor+YUVSpace.h in Headers */,
+				5153E625319F5AA19DF59B3C /* Pods-MusicApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1983862ADA2D5D45BCE44426 /* Headers */ = {
+		74C44E7745613E8F1F38C173 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A581E3CE193E013C153C5AD /* Pods-MusicApp-umbrella.h in Headers */,
+				C4E118974C46828C64FFEB37 /* Pods-MusicApp-Spring-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		836E73353E94BA2D06D9B5EC /* Headers */ = {
+		93D7B7B4469218733886FF44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EDE7B71F8A037B0B28AADD /* Pods-MusicApp-Alamofire-umbrella.h in Headers */,
+				6BD52A684D4F11FB2DDAA1B1 /* LEColorPicker.h in Headers */,
+				F8B59CEF6DEA922D1F9A4201 /* Pods-MusicApp-LEColorPicker-umbrella.h in Headers */,
+				31E8D7E3061D1BCCE154D30A /* UIColor+YUVSpace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A4D3A94873C4EDF7BB91B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC1BDB556F48F6FEA125425 /* Pods-MusicApp-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A0268A48D4CA4E2D2312E5B2 /* Pods-MusicApp */ = {
+		1160D7E3489595C39660DE7F /* Pods-MusicApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AB2C5268E84616216148A56 /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */;
+			buildConfigurationList = 80357602883C568E4CF6929E /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */;
 			buildPhases = (
-				782EAA1F5FF4492008A92BCD /* Sources */,
-				C5426D7A1673004D0FFFED4A /* Frameworks */,
-				1983862ADA2D5D45BCE44426 /* Headers */,
+				BBB23B7E7124FC0A9F9FEF5E /* Sources */,
+				DA992659A683E63D14E60A4A /* Frameworks */,
+				443AF66417140CFB98645D11 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22E8FBE3AD72B9666708C5AC /* PBXTargetDependency */,
-				8EAA33A68FC0ED01C6AC2092 /* PBXTargetDependency */,
+				09182D22BF3CEB4F0831D40D /* PBXTargetDependency */,
+				1C666D304C8724A6AB61FE9C /* PBXTargetDependency */,
+				96430E5B408D3E222B1A9F80 /* PBXTargetDependency */,
 			);
 			name = "Pods-MusicApp";
 			productName = "Pods-MusicApp";
-			productReference = D2A1F8630C9DAEC75FC41C07 /* Pods_MusicApp.framework */;
+			productReference = 4BDF0E0156BDF9068D9524BA /* Pods_MusicApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C306D13184B309D0B244781E /* Pods-MusicApp-Alamofire */ = {
+		D818F90A1C3D5C476BA7B694 /* Pods-MusicApp-LEColorPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FC5E6D6233BEC5632DA119D /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Alamofire" */;
+			buildConfigurationList = 0496F4DD97B4FBE5EE67C88D /* Build configuration list for PBXNativeTarget "Pods-MusicApp-LEColorPicker" */;
 			buildPhases = (
-				5B11D569F8F338B7761F66CF /* Sources */,
-				12A982AD1E268BBC0EDE131D /* Frameworks */,
-				836E73353E94BA2D06D9B5EC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MusicApp-Alamofire";
-			productName = "Pods-MusicApp-Alamofire";
-			productReference = 629A6C1D4FA3F555F7E93981 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D9396D83371901A603B6F4CD /* Pods-MusicApp-LEColorPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 050C60F0ECC23BB366E9EE47 /* Build configuration list for PBXNativeTarget "Pods-MusicApp-LEColorPicker" */;
-			buildPhases = (
-				EE82B26E1DB855740BE53D71 /* Sources */,
-				A7F367BEE62E491B756FCAE8 /* Frameworks */,
-				0BCAF06F40B4D74629161E48 /* Headers */,
+				3C849AF2BE559B22F7D9B3D4 /* Sources */,
+				0B8510F588FA816A69AC4B9F /* Frameworks */,
+				93D7B7B4469218733886FF44 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -333,91 +471,208 @@
 			);
 			name = "Pods-MusicApp-LEColorPicker";
 			productName = "Pods-MusicApp-LEColorPicker";
-			productReference = 82E71F9E046A68E93D9F5674 /* LEColorPicker.framework */;
+			productReference = 1ADC0F98B4A974F7D7A186CC /* LEColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDA245B27967C4510D9E8B48 /* Pods-MusicApp-Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2A32A4C4B7C2736EABBB8B /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Spring" */;
+			buildPhases = (
+				FACF7C5C2CF341E8B9033229 /* Sources */,
+				E50C727D2AFBFDE050438DE1 /* Frameworks */,
+				8AB5CC7B3962A7CF06D834C9 /* Resources */,
+				74C44E7745613E8F1F38C173 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MusicApp-Spring";
+			productName = "Pods-MusicApp-Spring";
+			productReference = F229BDB44E2A9262CE36ABEB /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6506A10825E5C97A72FA971 /* Pods-MusicApp-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED3688DCA69EF54836DA03F /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Alamofire" */;
+			buildPhases = (
+				4DDCB4C48E3B08322C4D4E0E /* Sources */,
+				231FD3EB7889531F3FA0C7AD /* Frameworks */,
+				B4A4D3A94873C4EDF7BB91B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MusicApp-Alamofire";
+			productName = "Pods-MusicApp-Alamofire";
+			productReference = 238B7A2FE9DF9233C2CF0CD8 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23B65B56A2C4BE1E2B406B4E /* Project object */ = {
+		77E5F74719E3CCD93A9ED846 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8DFB60D192B162F8235375A5 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 8D219BE0B4B05509D409F5A4 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D2A477784C6962D9F58F6772;
-			productRefGroup = 6674A04C2FB25D173A48A9EB /* Products */;
+			mainGroup = 3CEE80365C66FC831183001F;
+			productRefGroup = FA8BBA850416633A0F538E01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0268A48D4CA4E2D2312E5B2 /* Pods-MusicApp */,
-				C306D13184B309D0B244781E /* Pods-MusicApp-Alamofire */,
-				D9396D83371901A603B6F4CD /* Pods-MusicApp-LEColorPicker */,
+				1160D7E3489595C39660DE7F /* Pods-MusicApp */,
+				F6506A10825E5C97A72FA971 /* Pods-MusicApp-Alamofire */,
+				D818F90A1C3D5C476BA7B694 /* Pods-MusicApp-LEColorPicker */,
+				EDA245B27967C4510D9E8B48 /* Pods-MusicApp-Spring */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8AB5CC7B3962A7CF06D834C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3C2549830AB82BE22BF83D /* Images.xcassets in Resources */,
+				233655655D8CE4B85ECB5727 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5B11D569F8F338B7761F66CF /* Sources */ = {
+		3C849AF2BE559B22F7D9B3D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5653B677B811EF1AC6B6D91E /* Alamofire.swift in Sources */,
-				AD2A068EA32B233ACBB2EA4E /* Download.swift in Sources */,
-				C26AF93C07685976BBE8CB5A /* Manager.swift in Sources */,
-				0B9AED9FD207373DFA332289 /* ParameterEncoding.swift in Sources */,
-				E57576E1FA73D124303AD65A /* Pods-MusicApp-Alamofire-dummy.m in Sources */,
-				0FFD4453EB9373098918BF7C /* Request.swift in Sources */,
-				660E7BEDB00931F88D0F042E /* ResponseSerialization.swift in Sources */,
-				19605113351A7C3145FF3D1A /* Upload.swift in Sources */,
-				72CED865EA17DDEFE665BBAC /* Validation.swift in Sources */,
+				30E94B273E348EE961CC0ABF /* LEColorPicker.m in Sources */,
+				27D93F0450FC8998EBAE36B8 /* Pods-MusicApp-LEColorPicker-dummy.m in Sources */,
+				E44A1476EB45E2A0EF6433B2 /* UIColor+YUVSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		782EAA1F5FF4492008A92BCD /* Sources */ = {
+		4DDCB4C48E3B08322C4D4E0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E09F08FD12F1ECB9DF5F6B /* Pods-MusicApp-dummy.m in Sources */,
+				B5D601F9BFB48C00BAA54C29 /* Alamofire.swift in Sources */,
+				AE9E69760C686BB1E4CD81F1 /* Download.swift in Sources */,
+				0F228704D729901766DBE6B3 /* Manager.swift in Sources */,
+				BCE4541F6B9673E56F5ACB5D /* ParameterEncoding.swift in Sources */,
+				46F692DC2208250CD8879683 /* Pods-MusicApp-Alamofire-dummy.m in Sources */,
+				E607F7191D3142ACADF9FECF /* Request.swift in Sources */,
+				0C343445B95FECAC009212B1 /* ResponseSerialization.swift in Sources */,
+				3628B752896CB38A2EEE0CC2 /* Upload.swift in Sources */,
+				9159FF776F30CB0BEC194E95 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE82B26E1DB855740BE53D71 /* Sources */ = {
+		BBB23B7E7124FC0A9F9FEF5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A38BAF7F7DF404155F9997 /* LEColorPicker.m in Sources */,
-				9B737EFE90CF0E1D6666C7C9 /* Pods-MusicApp-LEColorPicker-dummy.m in Sources */,
-				356EFB597FB314D9859D8884 /* UIColor+YUVSpace.m in Sources */,
+				AB5561FF5FB2CF081A707D5D /* Pods-MusicApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF7C5C2CF341E8B9033229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A464A390999B7B1A971E9C1 /* AsyncButton.swift in Sources */,
+				6C95ECC854EA4421DB4D2615 /* AsyncImageView.swift in Sources */,
+				5AF1536FC341F52057F58B40 /* AutoTextView.swift in Sources */,
+				56AA3F6105BFDCED7937E3E0 /* BlurView.swift in Sources */,
+				BF4454FD30E41F28B71B2BFD /* DesignableButton.swift in Sources */,
+				0E5B0F2622A0BC3AA6EB92BB /* DesignableImageView.swift in Sources */,
+				F5FE611449276B2291FF84E6 /* DesignableLabel.swift in Sources */,
+				577EA8B5E9E3592C245A9AE8 /* DesignableTabBarController.swift in Sources */,
+				42F913E19577B9F533E063B1 /* DesignableTextField.swift in Sources */,
+				29127BE2EACF84E00EA8D0C3 /* DesignableTextView.swift in Sources */,
+				51D10E6FD7494ACCD0F201EF /* DesignableView.swift in Sources */,
+				C9EEF16BC49AFB3CA8E5A0BB /* ImageLoader.swift in Sources */,
+				66D36CEC9B6591DD1DE88500 /* KeyboardLayoutConstraint.swift in Sources */,
+				E4967F96EEA7FAC66CFF3C40 /* LoadingView.swift in Sources */,
+				2D7CCC33C5DBF4F24D3DED1D /* Misc.swift in Sources */,
+				06F7D5B92CFECAB813D05793 /* Pods-MusicApp-Spring-dummy.m in Sources */,
+				9100513EA7DA190AF3DABDB6 /* SoundPlayer.swift in Sources */,
+				74A8FB4B0DED22AB4F801BAB /* Spring.swift in Sources */,
+				1051735E40A371B219C4C518 /* SpringAnimation.swift in Sources */,
+				BADCE30CBD67F4277E739982 /* SpringButton.swift in Sources */,
+				5BE0D61ABD2698B205EC1FC8 /* SpringImageView.swift in Sources */,
+				F5AC905817A321A63E15B27C /* SpringLabel.swift in Sources */,
+				FB77913496A8765D1FF8885D /* SpringTextField.swift in Sources */,
+				975D86D129C4678ACC8986E0 /* SpringTextView.swift in Sources */,
+				10BF6E8AE1C1B3F45DFBE23C /* SpringView.swift in Sources */,
+				F24F202E61C1D853A2579EEB /* TransitionManager.swift in Sources */,
+				F03C05EB0829D9530D4F5C69 /* TransitionZoom.swift in Sources */,
+				93CC54DE4F400B46D300FEB0 /* UnwindSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22E8FBE3AD72B9666708C5AC /* PBXTargetDependency */ = {
+		09182D22BF3CEB4F0831D40D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MusicApp-Alamofire";
-			target = C306D13184B309D0B244781E /* Pods-MusicApp-Alamofire */;
-			targetProxy = 99BBBD61BF4FB8BCBD093291 /* PBXContainerItemProxy */;
+			target = F6506A10825E5C97A72FA971 /* Pods-MusicApp-Alamofire */;
+			targetProxy = E1AAAFDD9E2EE5E1EA44DB26 /* PBXContainerItemProxy */;
 		};
-		8EAA33A68FC0ED01C6AC2092 /* PBXTargetDependency */ = {
+		1C666D304C8724A6AB61FE9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MusicApp-LEColorPicker";
-			target = D9396D83371901A603B6F4CD /* Pods-MusicApp-LEColorPicker */;
-			targetProxy = D12DFAF27007CF0BA26E9D40 /* PBXContainerItemProxy */;
+			target = D818F90A1C3D5C476BA7B694 /* Pods-MusicApp-LEColorPicker */;
+			targetProxy = 06F9A40DAC0A870F7EECDE70 /* PBXContainerItemProxy */;
+		};
+		96430E5B408D3E222B1A9F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MusicApp-Spring";
+			target = EDA245B27967C4510D9E8B48 /* Pods-MusicApp-Spring */;
+			targetProxy = D0553D95F8092CD88D05CBFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		088053BAE50B0D01592B56D4 /* Debug */ = {
+		04C9A59CCCE334B74405E454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76A542C5AA29E1D1D27C774 /* Pods-MusicApp-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Spring/Pods-MusicApp-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Spring/Pods-MusicApp-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		083640EB9FC664BBDC1B1F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,9 +711,174 @@
 			};
 			name = Debug;
 		};
-		0B769A4824555216C2B66B0E /* Debug */ = {
+		100AD76AA65EB4B20CFFE808 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4691E39B77B6A2E65B696AF9 /* Pods-MusicApp.debug.xcconfig */;
+			baseConfigurationReference = 9ABE25CCAEFBBE39D05CAE16 /* Pods-MusicApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp/Pods-MusicApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MusicApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A86A20B5EE6533B19B877F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76A542C5AA29E1D1D27C774 /* Pods-MusicApp-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Spring/Pods-MusicApp-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Spring/Pods-MusicApp-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67789F13C7EEEB5F56240184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1661DD96DF44477BE89DEB2 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LEColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		713A9DAAB56F5E7034828B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F668F6D8383DF7D05F5493CB /* Pods-MusicApp-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		936BB765C25924DA6EAD1A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F668F6D8383DF7D05F5493CB /* Pods-MusicApp-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1950136FD361F8E4DDD8BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1661DD96DF44477BE89DEB2 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LEColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E530942F6F27421714AECC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCF2D436B07AF637CB5A506 /* Pods-MusicApp.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -486,145 +906,7 @@
 			};
 			name = Debug;
 		};
-		2C8BB283A95A44518F5A9A6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF742D2C5EA5124BD9B1501 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LEColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6323A44F091FBB21D4941415 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE51861BEE00863643F3C722 /* Pods-MusicApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B38074EB630E31F37CC69F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE51861BEE00863643F3C722 /* Pods-MusicApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-Alamofire/Pods-MusicApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		912492E802B25CC491466DF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A7907B91A23AADF242AEE22 /* Pods-MusicApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp/Pods-MusicApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MusicApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A68FC81D421042DFA9A88D2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF742D2C5EA5124BD9B1501 /* Pods-MusicApp-LEColorPicker-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp-LEColorPicker/Pods-MusicApp-LEColorPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LEColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD327FFDC9F0656BC11E13EC /* Release */ = {
+		FEB657E32A4A109DFD5825DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -661,43 +943,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		050C60F0ECC23BB366E9EE47 /* Build configuration list for PBXNativeTarget "Pods-MusicApp-LEColorPicker" */ = {
+		0496F4DD97B4FBE5EE67C88D /* Build configuration list for PBXNativeTarget "Pods-MusicApp-LEColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A68FC81D421042DFA9A88D2A /* Debug */,
-				2C8BB283A95A44518F5A9A6D /* Release */,
+				67789F13C7EEEB5F56240184 /* Debug */,
+				D1950136FD361F8E4DDD8BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FC5E6D6233BEC5632DA119D /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Alamofire" */ = {
+		1A2A32A4C4B7C2736EABBB8B /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Spring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B38074EB630E31F37CC69F9 /* Debug */,
-				6323A44F091FBB21D4941415 /* Release */,
+				04C9A59CCCE334B74405E454 /* Debug */,
+				1A86A20B5EE6533B19B877F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AB2C5268E84616216148A56 /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */ = {
+		4ED3688DCA69EF54836DA03F /* Build configuration list for PBXNativeTarget "Pods-MusicApp-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B769A4824555216C2B66B0E /* Debug */,
-				912492E802B25CC491466DF3 /* Release */,
+				936BB765C25924DA6EAD1A41 /* Debug */,
+				713A9DAAB56F5E7034828B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DFB60D192B162F8235375A5 /* Build configuration list for PBXProject "Pods" */ = {
+		80357602883C568E4CF6929E /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				088053BAE50B0D01592B56D4 /* Debug */,
-				CD327FFDC9F0656BC11E13EC /* Release */,
+				E530942F6F27421714AECC1F /* Debug */,
+				100AD76AA65EB4B20CFFE808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D219BE0B4B05509D409F5A4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083640EB9FC664BBDC1B1F5D /* Debug */,
+				FEB657E32A4A109DFD5825DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23B65B56A2C4BE1E2B406B4E /* Project object */;
+	rootObject = 77E5F74719E3CCD93A9ED846 /* Project object */;
 }

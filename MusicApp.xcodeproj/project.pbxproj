@@ -18,6 +18,8 @@
 		5657C7C01B24136C00592343 /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657C7BF1B24136C00592343 /* MusicAppTests.swift */; };
 		5657C7CA1B24155500592343 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5657C7C91B24155500592343 /* one.jpg */; };
 		569714761B24DD6E008C64FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569714751B24DD6E008C64FD /* AVFoundation.framework */; };
+		56DACFCF1B365C57009E5628 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DACFCE1B365C57009E5628 /* MusicDetailViewController.swift */; };
+		56F3C75D1B34AB710081758C /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3C75C1B34AB710081758C /* MusicCell.swift */; };
 		C54819C889FCD8558E55F8CA /* Pods_MusicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0931F0670C45E7F9864742 /* Pods_MusicApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		569714721B24D6CE008C64FD /* MusicApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		569714751B24DD6E008C64FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		56C095931B31E99F004A42D4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		56DACFCE1B365C57009E5628 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		56F3C75C1B34AB710081758C /* MusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
 		AF0931F0670C45E7F9864742 /* Pods_MusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACA3D9161998E604AB90175 /* Pods-MusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicApp/Pods-MusicApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +113,8 @@
 				564D42E91B31D45800F45B4C /* MusicTrack.swift */,
 				56C095931B31E99F004A42D4 /* MyPlayground.playground */,
 				56456F981B33E6DF001F71F3 /* ListViewController.swift */,
+				56F3C75C1B34AB710081758C /* MusicCell.swift */,
+				56DACFCE1B365C57009E5628 /* MusicDetailViewController.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -312,8 +318,10 @@
 				5657C7AC1B24136C00592343 /* ViewController.swift in Sources */,
 				564D42EA1B31D45800F45B4C /* MusicTrack.swift in Sources */,
 				5657C7AA1B24136C00592343 /* AppDelegate.swift in Sources */,
+				56DACFCF1B365C57009E5628 /* MusicDetailViewController.swift in Sources */,
 				56456F991B33E6DF001F71F3 /* ListViewController.swift in Sources */,
 				564D42E81B31D40E00F45B4C /* MusicManager.swift in Sources */,
+				56F3C75D1B34AB710081758C /* MusicCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

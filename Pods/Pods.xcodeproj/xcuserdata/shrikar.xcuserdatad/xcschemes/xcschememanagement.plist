@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MusicApp-Spring.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MusicApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A0268A48D4CA4E2D2312E5B2</key>
+		<key>1160D7E3489595C39660DE7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C306D13184B309D0B244781E</key>
+		<key>D818F90A1C3D5C476BA7B694</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D9396D83371901A603B6F4CD</key>
+		<key>EDA245B27967C4510D9E8B48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6506A10825E5C97A72FA971</key>
 		<dict>
 			<key>primary</key>
 			<true/>
